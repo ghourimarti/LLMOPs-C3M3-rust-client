@@ -81,3 +81,15 @@ fn main() {
     mod_file_path.push("mod.rs");
     fs::write(mod_file_path, mod_file).unwrap();
 }
+
+
+
+// py -m venv .qdrant
+// source .qdrant/Scripts/activate
+
+// docker pull qdrant/qdrant
+// docker run -p 6333:6333 -p 6334:6334 \
+//     -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
+//     qdrant/qdrant:latest 
+
+// https://qdrant.tech/documentation/quickstart/
