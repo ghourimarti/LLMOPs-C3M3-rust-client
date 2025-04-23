@@ -61,7 +61,7 @@ if i2 == 1:
     print(search_result)
 
 
-i3 = 1
+i3 = 0
 if i3 == 1:
     # Add a filter to the search query
     print("<=================================================>")
